@@ -2,26 +2,26 @@ import { capitalise } from "../utils/capitalise";
 
 function MainContent(): JSX.Element {
   const location = {
-    city: "Kuala Lumpur",
-    country: "Malaysia",
+    city: "Bath",
+    country: "UK",
   };
 
   const numOne = 3;
   const numTwo = 6;
 
-  const threeFavouriteFoods = ["Chocolate", "Noodles", "Pizza"];
+  const threeFavouriteFoods = ["Chocolate", "Tomatoes", "Cherries"];
 
   return (
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hi! My name is Nichard Rg.</p>
+        <p>Hi! My name is Melissa Rose.</p>
         <p>
           I currently live in {location.city}, {location.country}.
         </p>
       </section>
       <section>
-        <h2>Musing of the month ({location.city}, March 2003)</h2>
+        <h2>Musing of the month ({location.city}, July 2022)</h2>
         <p>
           Q: How much wood could a woodchuck chuck if a woodchuck could chuck
           wood?
